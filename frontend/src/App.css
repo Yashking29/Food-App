@@ -1,0 +1,33 @@
+/* App.css */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-link {
+    color: #ffffff; /* Set text color to white */
+    padding: 0.5rem 1rem; /* Add padding to make the links clickable */
+    border-radius: 0.25rem; /* Add rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for hover effect */
+  }
+  
+  .nav-link:hover {
+    background-color: #4a5568; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+  }
+  
